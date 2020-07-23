@@ -9913,11 +9913,99 @@ h3 {
   font-family: "Courgette", cursive;
 }
 
-nav {
-  width: 100%;
+header nav a {
+  color: white;
+}
+header nav .nav1 {
+  flex: 5;
+  margin: 0;
+  padding: 0;
+  margin-right: 100px;
+}
+header nav .nav1 ul {
+  border-bottom: grey solid 2px;
+  border-top: grey solid 2px;
+}
+header nav .nav2 {
+  flex: 2;
+}
+header nav .nav3 {
+  flex: 5;
+  margin: 0;
+  padding: 0;
+  margin-left: 100px;
+}
+header nav .nav3 ul {
+  border-bottom: grey solid 2px;
+  border-top: grey solid 2px;
+}
+header .carousel .carousel-indicators li {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+header .carousel div div .carousel-caption {
+  position: static;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 150px;
+  margin-bottom: 300px;
+}
+header .carousel div div .carousel-caption .occasion {
+  font-size: 65px;
+}
+header .carousel div div .carousel-caption .taste {
+  font-size: 65px;
+  color: red;
+}
+header .carousel div div .carousel-caption .makes-remember {
+  font-size: 60px;
+}
+header .carousel div div .carousel-caption h5 {
+  font-size: 50px;
+}
+header .carousel div div .carousel-caption div .btn-white {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+header .carousel div div .carousel-caption div .btn-red {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.about .story-menu {
+  background-color: white;
+  margin: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.about .story-menu .our-story {
   display: flex;
-  justify-content: space-around;
-  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.about .story-menu .our-story h3 {
+  font-size: 45px;
+}
+.about .story-menu div span {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .menu .container {
