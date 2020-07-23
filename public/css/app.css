@@ -9990,7 +9990,7 @@ header .carousel div div .carousel-caption div .btn-red {
 
 .about .story-menu {
   background-color: white;
-  margin: 25px;
+  padding: 25px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -10003,17 +10003,36 @@ header .carousel div div .carousel-caption div .btn-red {
 .about .story-menu .our-story h3 {
   font-size: 45px;
 }
-.about .story-menu div span {
-  margin-left: 50px;
-  margin-right: 50px;
+.about .story-menu .about-p {
+  text-align: center;
+}
+.about .story-menu .menu div .image-a div div img {
+  border-radius: 50%;
 }
 
-.menu .container {
-  background-color: white;
-}
-.menu .container .our-story {
+.team {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.team .team-titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team .chefs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team .chefs .chef {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=app.css.map */
