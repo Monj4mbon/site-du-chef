@@ -10024,6 +10024,24 @@ header .carousel div div .carousel-caption div .btn-red {
 .about .story-menu .about-p div {
   margin-bottom: 20px;
 }
+.about .story-menu .menu .navbar-menu {
+  font-size: 30px;
+}
+.about .story-menu .menu .navbar-menu a {
+  color: black;
+  padding: 30px;
+  border-bottom: grey solid 1px;
+  border-right: grey solid 1px;
+}
+.about .story-menu .menu .navbar-menu .div-vide {
+  height: 120px;
+  padding: 0;
+  font-size: 0;
+  border-bottom: none;
+}
+.about .story-menu .menu div {
+  font-size: 12px;
+}
 .about .story-menu .menu div .image-a div {
   border-bottom: dotted grey 0.5px;
 }
