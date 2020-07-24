@@ -9,21 +9,21 @@
   </head>
 
   <body>
-    <header style="background-image: url('./public/images/banner1.jpg');">
+    <header style="background-image: url('./public/images/banner1.jpg');" id="home">
       <nav class="navbar navbar-expand-lg container">
         <div class="collapse navbar-collapse nav1">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="#home">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
+              <a class="nav-link" href="#about-us">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">MENU LIST</a>
+              <a class="nav-link" href="#menu-list">MENU LIST</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">TEAM</a>
+              <a class="nav-link" href="#team">TEAM</a>
             </li>
           </ul>
         </div>
@@ -33,16 +33,16 @@
         <div class="collapse navbar-collapse nav3">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">RESERVATION</a>
+              <a class="nav-link" href="#reservation">RESERVATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
+              <a class="nav-link" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">TESTIMONIALS</a>
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT US</a>
+              <a class="nav-link" href="#contact-us">CONTACT US</a>
             </li>
           </ul>
         </div>
@@ -94,27 +94,42 @@
     </header>
 
     <section class="about" style="background-image: url('./public/images/main_bg.jpg');" >
+      <div class="bottom-decoration1">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+        <img src="./public/images/bottom_decoration_img.png" alt="">
+      </div>
       <div class="story-menu">
-        <div class="our-story">
+        <div class="our-story" id="about-us">
           <div>
             <img src="./public/images/box-left-top.png" alt="">
           </div>
-          <div>
+          <div class="titres">
             <h3><span class="text-danger">OUR</span> Story</h3>
             <img src="./public/images/decoration_line.png" alt="">
           </div>
           <img src="./public/images/box-right-top.png" alt="">
         </div>
-        <div class="about-p">
-          <div class="container">
+        <div class="about-p titres">
+          <div class="container col-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur laborum et quae illum ipsum, quibusdam ipsa sequi, minus dolor officia adipisci optio atque nobis doloremque, odio suscipit animi maxime. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore iste fugiat aperiam tenetur iure! Animi est incidunt vitae perspiciatis a impedit maxime nam quidem autem error porro, illo ullam adipisci!
           </div>
-          <h3><span class="text-danger">OUR</span> Menu list</h3>
+          <h3><span class="text-danger" id="menu-list">OUR</span> Menu list</h3>
           <img src="./public/images/decoration_line.png" alt="">
         </div>
         <div class="menu container">
           <div class="row">
-            <div class="col-2">
+            <div class="col-1">
               <nav class="nav flex-column">
                 <a class="nav-link" href="#">BreackFast</a>
                 <a class="nav-link" href="#">Lunch</a>
@@ -122,12 +137,12 @@
                 <a class="nav-link" href="#">Dinner</a>
               </nav>
             </div>
-            <div class="col-5 container image-a">
+            <div class="col-4 container image-a">
               <div class="row">
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -139,7 +154,7 @@
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -151,7 +166,7 @@
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -163,7 +178,7 @@
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -175,7 +190,7 @@
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -184,12 +199,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-5 image-b">
+            <div class="col-4 image-b">
               <div class="row">
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -201,7 +216,7 @@
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -213,7 +228,7 @@
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -225,7 +240,7 @@
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -237,7 +252,7 @@
                 <div class="col-3">
                   <img src="./public/images/menu_image_1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-menu">
                   <h5>Lorem ipsum dolor sit amet.</h6>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, eius?</p>
                 </div>
@@ -263,7 +278,7 @@
     </section>
 
     <section style="background-image: url('./public/images/team_background.jpg');" class="team">
-      <div class="team-titre">
+      <div class="team-titre titres" id="team">
         <h3><span class="text-danger">MEET</span> Our Chef</h3>
         <img src="./public/images/decoration_line.png" alt="">
       </div>
@@ -289,11 +304,11 @@
 
     <section style="background-image: url('./public/images/main_bg.jpg');" >
       <div class="reservation container">
-        <div class="reservation-titre">
+        <div class="reservation-titre titres">
           <div>
             <img src="./public/images/box-left-top-grey.png" alt="">
           </div>
-          <div>
+          <div class="titres" id="reservation">
             <h3><span class="text-danger">BOOK</span> Your Table</h3>
             <img src="./public/images/decoration_line.png" alt="">
           </div>
@@ -347,13 +362,13 @@
             </div>
           </div>
         </form>
-        <div class="blog-titre">
+        <div class="blog-titre titres" id="blog">
           <h3><span class="text-danger">OUR</span> Blog</h3>
           <img src="./public/images/decoration_line.png" alt="">
         </div>
         <div class="blog">
           <div class="photos">
-            <div class="gauche col-5">
+            <div class="gauche col-6">
               <div>
                 <img src="./public/images/blog_img1.jpg" alt="">
               </div>
@@ -365,7 +380,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
-            <div class="droite col-5">
+            <div class="droite col-6">
               <div>
                 <img src="./public/images/blog_img2.jpg" alt="">
               </div>
@@ -394,7 +409,7 @@
     </section>
 
     <section class="testimonials" style="background-image: url('./public/images/testimonials_background.jpg');">
-      <div class="testimonials-titre">
+      <div class="testimonials-titre titres" id="testimonials">
         <h3><span class="text-danger">CLIENT</span> Testimonials</h3>
         <img src="./public/images/decoration_line.png" alt="">
       </div>
@@ -421,8 +436,8 @@
     </section>
 
     <section class="contact"  style="background-image: url('./public/images/main_bg.jpg');">
-      <div class="contact-titre">
-        <h3><span class="text-danger">CLIENT</span> Testimonials</h3>
+      <div class="contact-titre titres" id="contact-us">
+        <h3><span class="text-danger">OUR</span> Contact</h3>
         <img src="./public/images/decoration_line.png" alt="">
       </div>
       <div class="carré-contact">
@@ -439,6 +454,21 @@
     </section>
 
     <footer>
+      <div class="bottom-decoration2">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+        <img src="./public/images/footer_bottom_decoration_img.png" alt="">
+      </div>
       <div class="footer"  style="background-image: url('./public/images/footer_background.jpg');">
         <div class="footer-contenu">
           <div class="footer-g col-4">
