@@ -10163,4 +10163,31 @@ header .carousel div div .carousel-caption div .btn-red {
   padding-right: 30px;
 }
 
+.testimonials {
+  color: white;
+  padding: 10px;
+}
+.testimonials .testimonials-titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials .testimonials-contenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px;
+}
+.testimonials .testimonials-contenu img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: grey solid 5px;
+}
+.testimonials .testimonials-contenu .text-testimonials {
+  border-radius: 10px;
+  border: grey solid 2px;
+}
+
 /*# sourceMappingURL=app.css.map */
