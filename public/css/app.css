@@ -9989,7 +9989,6 @@ header .carousel div div .carousel-caption div .btn-red {
 }
 
 .about .story-menu {
-  background-color: white;
   padding: 25px;
   margin-left: 100px;
   margin-right: 100px;
@@ -10006,8 +10005,21 @@ header .carousel div div .carousel-caption div .btn-red {
 .about .story-menu .about-p {
   text-align: center;
 }
+.about .story-menu .menu div .image-a div {
+  border-bottom: dotted grey 0.5px;
+}
 .about .story-menu .menu div .image-a div div img {
   border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+.about .story-menu .menu div .image-b div {
+  border-bottom: dotted grey 0.5px;
+}
+.about .story-menu .menu div .image-b div div img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
 }
 
 .team {
@@ -10016,6 +10028,7 @@ header .carousel div div .carousel-caption div .btn-red {
   align-items: center;
   justify-content: center;
   padding: 50px;
+  color: white;
 }
 .team .team-titre {
   display: flex;
@@ -10027,12 +10040,127 @@ header .carousel div div .carousel-caption div .btn-red {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 .team .chefs .chef {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.reservation {
+  padding: 50px;
+}
+.reservation .reservation-titre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.reservation .formulaire {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 150px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.reservation .formulaire p {
+  margin-bottom: 50px;
+}
+.reservation .formulaire input {
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.reservation .formulaire ::placeholder {
+  color: black;
+  opacity: 0.7;
+}
+.reservation .formulaire select {
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.reservation .blog-titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reservation .blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reservation .blog .photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.reservation .blog .photos .gauche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+.reservation .blog .photos .gauche img {
+  border-radius: 20px;
+  border: grey solid 5px;
+  height: 250px;
+  width: 400px;
+}
+.reservation .blog .photos .gauche .boite-rose {
+  background-color: red;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  top: -30px;
+  position: relative;
+}
+.reservation .blog .photos .gauche .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.reservation .blog .photos .droite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+.reservation .blog .photos .droite img {
+  border-radius: 20px;
+  border: grey solid 5px;
+  height: 250px;
+  width: 400px;
+}
+.reservation .blog .photos .droite .boite-rose {
+  background-color: red;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  top: -30px;
+  position: relative;
+}
+.reservation .blog .photos .droite .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.reservation .blog .button-blog button {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /*# sourceMappingURL=app.css.map */
