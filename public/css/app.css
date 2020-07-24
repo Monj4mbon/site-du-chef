@@ -10190,4 +10190,35 @@ header .carousel div div .carousel-caption div .btn-red {
   border: grey solid 2px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.contact .contact-titre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contact .carré-contact {
+  background-color: red;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 15px;
+}
+.contact .carré-contact .text-contact {
+  border-bottom: white solid 1px;
+  padding: 20px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=app.css.map */
